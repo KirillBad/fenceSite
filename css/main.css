@@ -12,6 +12,8 @@ html {
     "slnt" 0,
     "CRSV" 0,
     "SHRP" 100;
+  
+  overflow-x: hidden;
 }
 :root {
   --index: calc(1vh + 1vw);
@@ -152,7 +154,6 @@ svg text.textBody {
 }
 #examplesTrack {
   display: flex;
-  overflow-x: hidden;
   padding-left: calc(var(--index) * 12);
   user-select: none;
   gap: calc(var(--index) * 0.5);
