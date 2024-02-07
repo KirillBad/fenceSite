@@ -152,7 +152,7 @@ svg text.textBody {
 }
 #examplesTrack {
   display: flex;
-  position: relative;
+  position: absolute;
   overflow-x: hidden;
   padding-left: calc(var(--index) * 12);
   user-select: none;
