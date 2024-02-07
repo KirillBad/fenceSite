@@ -154,20 +154,22 @@ svg text.textBody {
 }
 #examplesTrack {
   display: flex;
-  /* position: absolute; */
-  /* overflow-x: hidden; */
+  position: absolute;
+  overflow-x: hidden;
   padding-left: calc(var(--index) * 12);
   user-select: none;
   gap: calc(var(--index) * 0.5);
 }
-/* #reviewsTrack {
-  padding-right: calc(var(--index) * 12);
+#reviewsTrack {
   display: flex;
-  flex-direction: row-reverse;
+  overflow-x: hidden;
+  position: absolute;
+  padding-right: calc(var(--index) * 12);
+  right: 0;
   user-select: none;
   gap: calc(var(--index) * 0.5);
-} */
-.imageExamples {
+}
+.imageExamples, .imageReviews {
   border-radius: 10px;
   width: calc(var(--index) * 14);
   height: calc(var(--index) * 19);
@@ -176,6 +178,12 @@ svg text.textBody {
 }
 .sectionText {
   padding-top: calc(var(--index) * 1);
+  display: flex;
+  justify-content: center;
+}
+
+#textReviews {
+  padding-top: calc(var(--index) * 20);
   display: flex;
   justify-content: center;
 }
