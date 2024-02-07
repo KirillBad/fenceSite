@@ -27,7 +27,7 @@ html {
 body {
   background-color: black;
   color: var(--color-text);
-  overflow-X: hidden;
+  overflow-x: hidden;
 }
 .container {
   height: 100%;
