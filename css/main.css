@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
   font-family: "Geologica", sans-serif;
@@ -152,7 +152,8 @@ svg text.textBody {
 }
 #examplesTrack {
   display: flex;
-  position: absolute;
+  position: relative;
+  overflow-x: hidden;
   padding-left: calc(var(--index) * 12);
   user-select: none;
   gap: calc(var(--index) * 0.5);
