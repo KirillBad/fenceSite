@@ -152,18 +152,18 @@ svg text.textBody {
 }
 #examplesTrack {
   display: flex;
-  position: relative;
+  position: absolute;
   padding-left: calc(var(--index) * 12);
   user-select: none;
   gap: calc(var(--index) * 0.5);
 }
-#reviewsTrack {
+/* #reviewsTrack {
   padding-right: calc(var(--index) * 12);
   display: flex;
   flex-direction: row-reverse;
   user-select: none;
   gap: calc(var(--index) * 0.5);
-}
+} */
 .imageExamples {
   border-radius: 10px;
   width: calc(var(--index) * 14);
